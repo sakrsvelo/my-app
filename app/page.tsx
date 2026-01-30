@@ -20,14 +20,15 @@ export default function Home() {
         px-4 md:px-8               
         pt-10 md:pt-22             
         flex flex-col md:flex-row  
-        gap-8 md:gap-12            
+        gap-8 md:gap-12     
+        pb-18 md:pb-26      
     ">
         
-      <div className="hidden lg:block fixed md:static top-10 right-8 z-50">
-        <Playlist />
+      <div className="fixed top-6 right-4 md:top-10 md:right-8 z-50">
+          <Playlist />
       </div>
 
-      <div className="w-full md:w-auto shrink-0 min-w-0">
+      <div className="w-full md:w-auto shrink-0 flex items-start">
         <SidebarNav />
       </div>
 

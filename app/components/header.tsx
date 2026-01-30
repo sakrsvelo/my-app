@@ -1,15 +1,20 @@
-interface HeaderProps {
+import { cn } from "../utils/cn";
+import { splitTitle } from "../utils/text";
+
+export interface HeaderProps {
   title?: string;
+  singleLine?: boolean;
 }
 
-export default function Header({ title = "sophia’s recommendations" }: HeaderProps) {
+export default function Header({ title = "sophia’s recommendations", singleLine = false }: HeaderProps) {
+  const words = splitTitle(title);
+
   return (
-    <header className="mb-8 md:mb-12 flex items-center justify-between gap-4">
-      {/* text-4xl on mobile, text-7xl on desktop */}
-      <h1 className="text-4xl md:text-7xl italic tracking-normal leading-[0.9] text-[#52442C]">
-        {title.split(' ').map((word, i) => (
-          <span key={i} className="inline-block">
-            {word}&nbsp;{i === 0 && <br className="hidden md:block" />}
+    <header className="mb-8 md:mb-12 flex items-end gap-2 md:gap-4">
+      <h1 className="text-3xl md:text-7xl italic tracking-normal leading-[0.85] text-[#52442C]">
+        {words.map((word, i) => (
+          <span key={i} className={cn("block", singleLine && "inline-block mr-2")}>
+            {word}
           </span>
         ))}
       </h1>

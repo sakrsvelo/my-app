@@ -25,7 +25,7 @@ export const recommendations: Recommendation[] = [
     title: "blue period",
     author: "tsubasa yamaguchi",
     image: "/covers/blueperiod.jpg",
-    rating: 4,
+    rating: 5,
     synopsis: "second-year high school student yatora yaguchi is bored with his normal life. he studies well and plays around with his friends, but in truth, he does not enjoy either of those activities. bound by norms, he secretly envies those who do things differently.",
     review: "he’s just like me frfr",
     url: "https://kodansha.us/series/blue-period/",

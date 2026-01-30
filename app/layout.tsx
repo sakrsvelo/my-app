@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next/types";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -8,8 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "recommendations",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  title: "manga recommendations",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({

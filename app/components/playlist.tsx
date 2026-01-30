@@ -8,7 +8,6 @@ export default function Playlist() {
 
   return (
     <div className="relative flex items-center justify-end">
-      {/* The Tooltip Card - Positioned at top-12 (below) and right-0 (aligned right) */}
       <div 
             className={`absolute top-12 right-6 w-48 rounded-2xl bg-[#e2ddd1] p-4 shadow-sm transition-all duration-300 transform origin-top-right ${
                 isHovered 

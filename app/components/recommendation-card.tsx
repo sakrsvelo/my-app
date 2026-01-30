@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Recommendation } from "../data/recommendations";
 import { LuLink } from "react-icons/lu";
+import { formatRating } from "../utils/text";
 
 export default function RecommendationCard({
       title,
@@ -47,10 +48,8 @@ export default function RecommendationCard({
             </h3>
             
             <div className="flex gap-0.5 mt-1 text-lg text-[#52442C]/70">
-              {[...Array(5)].map((_, i) => (
-                <span key={i}>{i < rating ? "★" : "☆"}</span>
-              ))}
-            </div>
+              {formatRating(rating)}
+          </div>
           </div>
 
           <div className="space-y-3 text-sm italic leading-relaxed">
