@@ -13,7 +13,7 @@ export default function SidebarNav() {
   ];
 
   return (
-    <nav className="sticky top-28 z-20 flex flex-col items-center gap-4 px-3 py-3 rounded-full bg-[#E5DECD] shadow-sm">
+    <nav className="sticky top-28 z-20 flex flex-row md:flex-col gap-4 items-center px-3 py-3 rounded-full bg-[#E5DECD] shadow-sm">
       {navItems.map((item) => {
         const isActive = pathname === item.href;
         return (

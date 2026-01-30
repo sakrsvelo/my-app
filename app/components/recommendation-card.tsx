@@ -13,13 +13,11 @@ export default function RecommendationCard({
   }: Recommendation) {
     return (
       <article
-        className="
-          relative flex gap-8 rounded-[32px] border border-[#52442C]/60
-          bg-[#FCFCF2] p-6 shadow-sm
-          transition-all duration-300 ease-out
-          hover:-translate-y-1 hover:shadow-md
-        "
-      >
+      className="
+        relative flex flex-col sm:flex-row gap-6 p-5 md:p-7 rounded-[32px] 
+        border border-[#52442C]/60 bg-[#FCFCF2] shadow-sm
+      "
+    >
         <a 
           href={url}
           rel="noopener noreferrer"
@@ -29,17 +27,17 @@ export default function RecommendationCard({
           <LuLink size={22} />
         </a>
 
-        <div className="w-40 shrink-0">
-          <Image
-            src={image}
-            alt={title}
-            width={160}
-            height={240}
-            className="rounded-xl object-cover"
-          />
-        </div>
+        <div className="w-full sm:w-40 shrink-0">
+        <Image
+          src={image}
+          alt={title}
+          width={160}
+          height={240}
+          className="rounded-xl object-cover w-full h-auto sm:h-60"
+        />
+      </div>
 
-        <div className="flex flex-col gap-3 text-[#52442C] pr-6">
+        <div className="flex flex-col gap-3 text-[#52442C] pr-0 sm:pr-6">
           <div>
             <h3 className="text-xl font-bold tracking-tight leading-tight">
               {title}{" "}
@@ -55,7 +53,7 @@ export default function RecommendationCard({
             </div>
           </div>
 
-          <div className="space-y-3 text-xs italic leading-relaxed">
+          <div className="space-y-3 text-sm italic leading-relaxed">
             <p>
               <span className="font-bold not-italic">synopsis:</span> {synopsis}
             </p>

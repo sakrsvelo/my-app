@@ -8,7 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "recommendations"
+  title: "recommendations",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
 
 export default function RootLayout({

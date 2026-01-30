@@ -12,20 +12,26 @@ export default function Home() {
       <BGPattern 
         variant="grid" 
         fill="#52442C" 
-        className="absolute inset-0 z-0 opacity-[0.2]" 
+        className="fixed inset-0 z-0 opacity-[0.2]" 
       />
 
-      <main className="relative z-10 mx-auto max-w-7xl px-8 pt-22 pb-32 flex gap-12">
+      <main className="
+        relative z-10 mx-auto max-w-7xl 
+        px-4 md:px-8               
+        pt-10 md:pt-22             
+        flex flex-col md:flex-row  
+        gap-8 md:gap-12            
+    ">
         
-      <div className="fixed top-10 right-8 z-50">
+      <div className="hidden lg:block fixed md:static top-10 right-8 z-50">
         <Playlist />
       </div>
 
-      <div className="shrink-0">
+      <div className="w-full md:w-auto shrink-0 min-w-0">
         <SidebarNav />
       </div>
 
-      <div className="flex-1">
+      <div className="flex-1 w-full">
         <Header />
         <RecommendationGrid />
       </div>

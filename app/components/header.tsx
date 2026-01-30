@@ -4,11 +4,12 @@ interface HeaderProps {
 
 export default function Header({ title = "sophia’s recommendations" }: HeaderProps) {
   return (
-    <header className="mb-16 flex items-center gap-6">
-      <h1 className="text-[72px] font-stretch-95% italic tracking-normal leading-[0.8] text-[#52442C]">
+    <header className="mb-8 md:mb-12 flex items-center justify-between gap-4">
+      {/* text-4xl on mobile, text-7xl on desktop */}
+      <h1 className="text-4xl md:text-7xl italic tracking-normal leading-[0.9] text-[#52442C]">
         {title.split(' ').map((word, i) => (
-          <span key={i}>
-            {word} {i === 0 && <br />}
+          <span key={i} className="inline-block">
+            {word}&nbsp;{i === 0 && <br className="hidden md:block" />}
           </span>
         ))}
       </h1>
@@ -17,7 +18,7 @@ export default function Header({ title = "sophia’s recommendations" }: HeaderP
         <img 
           src="/img/toro.png" 
           alt="Toro Inoue" 
-          className="h-32 w-auto object-contain select-none"
+          className="h-20 w-auto md:h-32 object-contain select-none"
         />
       </div>
     </header>

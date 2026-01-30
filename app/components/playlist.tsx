@@ -15,7 +15,7 @@ export default function Playlist() {
                     ? "opacity-100 translate-y-0 scale-100" 
                     : "opacity-0 -translate-y-2 scale-95 pointer-events-none"
                 }`}
-        >   
+    >   
         <h3 className="text-lg font-medium italic border-b border-[#52442C] pb-1 mb-2 text-[#52442C] tracking-tight">
           PLAYLIST
         </h3>
@@ -26,7 +26,6 @@ export default function Playlist() {
         </ul>
       </div>
 
-      {/* The Headphone Icon Button */}
       <button
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
