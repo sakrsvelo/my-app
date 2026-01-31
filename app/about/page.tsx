@@ -51,7 +51,7 @@ export default function AboutPage() {
               <div className="space-y-6 text-base md:text-lg italic leading-relaxed tracking-normal text-[#52442C]">
                 <p>
                   hello! i've always enjoyed reading, may it be classic lit, comics, manga, and any other form of literature.
-                  i made this blog to share my recommendations and my thoughts on them, in hopes of helping others discover new manga they might enjoy.
+                  i made this blog to share my recommendations and my thoughts on them, in hopes of helping others discover new stories they might enjoy.
                   <br /><br />
                   this blog also serves as a personal journal for me to document my manga history and the genres i've grown to lean towards over time.
                   <br /><br />
