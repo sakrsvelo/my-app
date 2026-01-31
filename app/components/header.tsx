@@ -1,12 +1,11 @@
-import { cn } from "../utils/cn";
 import { splitTitle } from "../utils/text";
+import HoverAnim from "./hover-anim";
 
 export interface HeaderProps {
   title?: string;
 }
 
 export default function Header({ title = "sophia’s recommendations" }: HeaderProps) {
-  // const words = splitTitle(title);
   const lines = splitTitle(title);
 
   return (
@@ -19,6 +18,7 @@ export default function Header({ title = "sophia’s recommendations" }: HeaderP
         ))}
       </h1>
 
+      <HoverAnim>
       <div className="shrink-0">
         <img 
           src="/img/toro.png" 
@@ -26,6 +26,7 @@ export default function Header({ title = "sophia’s recommendations" }: HeaderP
           className="h-20 w-auto md:h-32 object-contain select-none"
         />
       </div>
+      </HoverAnim>
     </header>
   );
 }

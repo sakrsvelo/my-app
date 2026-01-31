@@ -46,7 +46,6 @@ export default function AboutPage() {
       />
     </div>
   </FadeIn>
-
             <FadeIn delay={0.4} className="flex-1 w-full">
             <div className="flex-1 bg-[#FCFCF2] border border-[#52442C]/70 rounded-[32px] md:rounded-[40px] p-6 md:p-10 shadow-sm min-h-fit md:min-h-87.5">
               <div className="space-y-6 text-base md:text-lg italic leading-relaxed tracking-normal text-[#52442C]">
