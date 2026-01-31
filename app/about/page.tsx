@@ -50,11 +50,13 @@ export default function AboutPage() {
             <div className="flex-1 bg-[#FCFCF2] border border-[#52442C]/70 rounded-[32px] md:rounded-[40px] p-6 md:p-10 shadow-sm min-h-fit md:min-h-87.5">
               <div className="space-y-6 text-base md:text-lg italic leading-relaxed tracking-normal text-[#52442C]">
                 <p>
-                  i like reading :] i like reading :] i like reading :] i like reading :] 
-                  i like reading :] i like reading :] i like reading :] i like reading :] 
-                  i like reading :] i like reading :] i like reading :] i like reading :]
-                  i like reading :] i like reading :] i like reading :] i like reading :] 
-                  i like reading :] i like reading :] aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                  hello! i've always enjoyed reading, may it be classic lit, comics, manga, and any other form of literature.
+                  i made this blog to share my recommendations and my thoughts on them, in hopes of helping others discover new manga they might enjoy.
+                  <br /><br />
+                  this blog also serves as a personal journal for me to document my manga history and the genres i've grown to lean towards over time.
+                  <br /><br />
+                  thank you for stopping by, and i hope you find something you like here!
+                  <br />(o゜▽゜)o☆
                 </p>
               </div>
             </div>

@@ -39,13 +39,16 @@ export const recommendations: Recommendation[] = [
   },
   {
     id: "girl-meets-rock",
-    title: "girl meets rock",
+    title: "girl meets rock!",
     author: "kuwahali",
     image: "/covers/girlmeetsrock.jpg",
     rating: 4,
     synopsis: "with a passion for richly textured japanese rock, first-year high school student chihiro hatono steps into the world of the light "
     + "music club, new guitar in tow. but what awaits her behind those doors...? a drama of unfiltered youth and musical ambition takes the stage!",
-    review: "cute mc, works hard, tries her best has actual zero opps even her haters end up liking her she’s just that cool but in an endearing loser way",
+    review: "get your music recs here! if you like j-rock or anything pop punk adjacent, the music in this manga will definitely pique your "
+    + "interest. the MC is very earnest, charming and sincere, making you want to root for her. there's nothing groundbreaking about it; it's very "
+    + "much a casual read. in all honesty, the possibility of this having an anime adaptation is far off because of the numerous music rights of "
+    + "licenses or idk... whatever is needed to use the music when it airs. which is unfortunate, but i'm still holding out hope.",
     url: "https://mangaplus.shueisha.co.jp/titles/100291",
   },
   {
@@ -55,9 +58,10 @@ export const recommendations: Recommendation[] = [
     image: "/covers/dunmeshi.jpg",
     rating: 5,
     synopsis: "after the golden kingdom is sunk underground by an insane magician, its king emerges, promising all of his treasure to any who "
-    + "defeat the magician, before crumbling to dust. guilds are spurred on by this promise, traversing the labyrinthine dungeon in search of "
-    + "the magician. laios touden, the leader of one such guild, encounters a dragon that wipes out his party and devours his sister, falin.",
-    review: "laios is a mood",
+    + "defeat the magician, before crumbling to dust. laios touden, the leader of one such guild, encounters a dragon that wipes out his party and devours his sister, falin.",
+    review: "when i first read this, i thought it was very DND-esque, which already got me hooked. there's a good balance between comedy and serious themes as well. "
+    + "the world building is actually incredibly complex and dense. the fact that there are intricate details on the ecosystem and biology of both the dungeon and the "
+    + "monsters dwelling tells you that so much thought and love went into making this story. i would 100% erase my memory just to read it for the first time again.",
     url: "https://yenpress.com/titles/9780316471855-delicious-in-dungeon-vol-1",
     
   },
@@ -70,7 +74,10 @@ export const recommendations: Recommendation[] = [
     synopsis: "sentenced to death, ninja gabimaru the hollow finds himself apathetic. after leading a blood-soaked life, gabimaru believes he "
     + "deserves to die. however, every attempt to execute him inexplicably fails. finally, sagiri yamada asaemon, a fledgling member of a famed "
     + "executioner clan, is asked to take gabimaru's life; yet sagiri makes no move to kill him as requested.",
-    review: "art is sooo peak i think it could've gone for like 30 more chapters but honestly it's peakk",
+    review: "the art is breathtaking, especially page spreads of the island backgrounds. i for sure thought that it would get the same treatment as "
+    + "jujutsu kaisen or chainsaw man because of its typical good vs. bad shounen trope, but it didn't garner the same popularity, which was a shame. "
+    + "this work has a lot of dark themes, gorey art, and a lot of self-exploration for the characters. many consider the MC (big wife guy, we love to "
+    + "see it) as a mary sue, but i think he's quite well developed and balanced. if you like action and thriller, this is definitely a must read.",
     url: "https://www.viz.com/shonenjump/chapters/hells-paradise-jigokuraku",
     
   },
@@ -83,7 +90,10 @@ export const recommendations: Recommendation[] = [
     synopsis: "the inhabitants of a certain wealthy town think nothing of throwing objects away. however, their waste is priceless to rudo, a "
     + "resident of the town's slums. despite the constant warnings from his adoptive father regto, rudo spends his days searching for reusable "
     + "materials that would otherwise be sent to the giant disposal area known as the pit.",
-    review: "mc trash racoon and peak character designs!!",
+    review: "the plot is unique and refreshing, having your most valued item being your weapon? it would be cool to see more unconventional weapons"
+    + " being used in fights. the art is very grunge and punk, which sort of reminds me of skull girls, guilty gear and soul eater. the MC is so likeable, "
+    + "what with the way he's eager to help with his strong sense of justice. in a world full of people who disregard people or objects as if they were "
+    + "nothing, he displays care and appreciation for both. the world building is interesting with the sphere and the ground, and the mystery shrouding the vital instruments.",
     url: "https://kmanga.kodansha.com/title/10010/episode/325146",
     
   },
