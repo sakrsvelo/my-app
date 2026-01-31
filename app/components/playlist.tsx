@@ -2,12 +2,14 @@
 
 import { useState } from "react";
 import { RiHeadphoneLine } from "react-icons/ri";
+import HoverAnim from "./hover-anim";
 
 export default function Playlist() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div className="relative flex items-center justify-end">
+      <HoverAnim>
       <div 
             className={`absolute top-12 right-6 w-48 rounded-2xl bg-[#e2ddd1] p-4 shadow-sm transition-all duration-300 transform origin-top-right ${
                 isHovered 
@@ -33,6 +35,7 @@ export default function Playlist() {
       >
         <RiHeadphoneLine size={24} strokeWidth={0.5} />
       </button>
+      </HoverAnim>
     </div>
   );
 }
