@@ -19,7 +19,7 @@ export default function AboutPage() {
         relative z-10 mx-auto max-w-7xl 
         px-4 md:px-8               
         pt-10 md:pt-22             
-        flex flex-col md:flex-row  /* Stack vertically on mobile */
+        flex flex-col md:flex-row
         gap-8 md:gap-12            
         pb-18 md:pb-26      
       ">
@@ -33,7 +33,7 @@ export default function AboutPage() {
         </div>
 
         <div className="flex-1 w-full min-w-0">
-          <Header title="about this blog" singleLine={true} />
+          <Header title="about this|blog"/>
 
           <section className="mt-8 md:mt-16 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
   

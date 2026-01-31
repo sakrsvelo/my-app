@@ -1,4 +1,7 @@
-export const splitTitle = (title: string) => {
+export const splitTitle = (title: string): string[] => {
+  if (title.includes('|')) {
+    return title.split('|');
+  }
   return title.split(' ');
 };
 

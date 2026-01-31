@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Recommendation } from "../data/recommendations";
 import { LuLink } from "react-icons/lu";
 import { formatRating } from "../utils/text";
+import HoverAnim from "./hover-anim";
 
 export default function RecommendationCard({
       title,
@@ -13,6 +14,7 @@ export default function RecommendationCard({
       url,
   }: Recommendation) {
     return (
+      <HoverAnim>
       <article
       className="
         relative flex flex-col sm:flex-row gap-6 p-5 md:p-7 rounded-[32px] 
@@ -22,8 +24,8 @@ export default function RecommendationCard({
         <a 
           href={url}
           rel="noopener noreferrer"
-        className="absolute top-6 right-6 text-[#52442C]/70 hover:text-[#52442C] transition-colors cursor-pointer"
-        aria-label={`Read more about ${title}`}
+          className="absolute top-6 right-6 text-[#52442C]/70 hover:text-[#52442C] transition-colors cursor-pointer z-20"
+          aria-label={`Read more about ${title}`}
         >
           <LuLink size={22} />
         </a>
@@ -62,5 +64,6 @@ export default function RecommendationCard({
           </div>
         </div>
       </article>
+      </HoverAnim>
     );
 }
